@@ -1,0 +1,55 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #c0c0c0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.item {
+    align-self: center;
+    display: flex;
+    width: 100%;
+      border-bottom: 1px solid #0a0a0a;
+}
+
+.sub-item {
+    width: 40%;
+    padding: 0 10px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.coracao img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: 60px;
+     margin-left: 10px;
+}
